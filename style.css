@@ -39,11 +39,14 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: rgb(70,70,70);
+  color: #74dbef;
   text-decoration:
 
 }
 
+ul {
+  display:inline-block;
+}
 
 /*CLASS start with .class */
 /* containter */
@@ -82,8 +85,8 @@ a:hover {
 }
 
 .img-small-square {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
 }
 
 
@@ -96,8 +99,10 @@ border-radius: 50%;
 
 .list-inline li {
   list-style: none;
-  display:inline;
+  display: inline-flex;
+  margin: 0 5px;
 }
+
 
 /* IDS start with # */
 #logo {
